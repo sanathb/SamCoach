@@ -1,0 +1,17 @@
+{
+  "name": "test/longest-raising-sequence",
+  "description": "Unit tests for LongestRaisingSequence class",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "classmap": [
+      "."
+    ]
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test-coverage": "phpunit --coverage-html coverage"
+  }
+}
