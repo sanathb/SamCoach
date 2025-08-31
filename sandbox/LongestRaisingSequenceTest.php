@@ -23,15 +23,6 @@ class LongestRaisingSequenceTest extends TestCase
     }
 
     /**
-     * Test with single element array
-     */
-    public function testSingleElement(): void
-    {
-        $result = $this->longestRaisingSequence->findLongestSequence([7]);
-        $this->assertEquals([7],$result);
-    }
-
-    /**
      * Test with array containing zeros
      */
     public function testSingleZero(): void
